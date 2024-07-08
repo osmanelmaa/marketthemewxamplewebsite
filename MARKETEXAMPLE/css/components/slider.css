@@ -1,0 +1,66 @@
+.carouselExampleIndicators{
+            z-index: inherit;
+}
+.carousel-item img {
+            width: 100%;  
+            height: 599px; 
+            object-fit: cover;
+           
+            
+}
+.slider-box {
+            background: none;
+            width: 450px;
+            height: 650px;
+            position: absolute;
+            top: 30%;
+            left: 5%;
+            z-index: 1002;
+}
+.slider-box .slider-box-caption{
+            color: white;
+            font-size: 65px;
+}
+.slider-box .slider-box-btn{
+            padding: 7px;
+            width: 25%;
+            background: transparent;
+            backdrop-filter: blur(10px);
+            cursor: pointer;
+            z-index: 1002;
+}
+.slider-box .slider-box-btn:hover{
+            backdrop-filter: blur(0px);    
+}
+@media screen and (max-width:768px) {
+            .carousel-item img {
+                        width: 100%;  
+                        height: 750px; 
+                        object-fit: cover; 
+            } 
+            .slider-box {
+                        background: none;
+                        width: 450px;
+                        height: 650px;
+                        position: absolute;
+                        top: 20%;
+                        left: -4%;
+                        z-index: 1002;
+            }
+            .slider-box .slider-box-caption{
+                        color: white;
+                        font-size: 65px;
+            }
+            .slider-box .slider-box-btn{
+                        padding: 7px;
+                        width: 25%;
+                        background: transparent;
+                        backdrop-filter: blur(10px);
+                        cursor: pointer;
+                        z-index: 1002;
+                        margin-left: 150px;
+            }
+            .slider-box .slider-box-btn:hover{
+                        backdrop-filter: blur(0px);    
+            }
+}

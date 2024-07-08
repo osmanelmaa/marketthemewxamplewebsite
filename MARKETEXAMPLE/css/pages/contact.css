@@ -1,0 +1,124 @@
+.contact{
+            background: rgb(34,193,195);
+            background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
+            border-top:2px solid black ;
+}
+.contact .contact-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+}
+.login-box{
+            position: relative;
+            width: 400px;
+            height: 550px;
+            background: transparent;
+            border: 2px solid rgba(255, 255, 255, .5);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(13px);
+}
+
+h2{
+            font-size: 1em;
+            color: white;
+            text-align: center;
+}
+
+.input-box{
+            position: relative;
+            width: 310px;
+            margin: 30px 0;
+            border-bottom: 2px solid white;
+}
+
+.input-box label{
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1em;
+            color: white;
+            pointer-events: none;
+            top: -5px;
+}
+
+.input-box input{
+            width: 100%;
+            height: 50px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1em;
+            color: white;
+           
+}
+
+
+.input-box .icon{
+            position: absolute;
+            right: 8px;
+            color: white;
+            font-size: 1.2em;
+            line-height: 57px;
+}
+
+.remember-forgot {
+            margin: -15px 0 15px;
+            font-size: .9em;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+}
+.remember-forgot label input{
+            margin-right: 3px;
+}
+
+.remember-forgot a{
+            text-decoration: none;
+            color:white ;
+            transition: .5s;
+}
+
+.remember-forgot a:hover {
+            text-decoration: underline;
+}
+
+button{
+            width: 100%;
+            height: 40px;
+            background: white;
+            border: none;
+            outline: none;
+            border-radius: 15px;
+            transition: .9s;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            top: 1px;
+}
+
+button:hover{
+            color: white;
+            background: rgba(0,0,0,0.75);
+
+}
+
+@media (max-width: 768px) {
+            .contact-wrapper {
+                flex-direction: column;
+            }
+        
+            .contact-location iframe {
+                width: 326px;
+                height: 550px;
+                border-radius: 20px;
+                margin-top: 30px;
+            }
+            .login-box{
+                        width: 326px;
+            }
+        }

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="css/base.css">
+            <link rel="stylesheet"
+                        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+            <title>MARKET</title>
+</head>
+
+<body>
+
+            <header>
+                        <div class="header-items">
+                                    <div class="header-left">
+                                                <i class="bi bi-list" id="burger-menu" onclick="toggleSidebar()"></i>
+                                                <a href="#" class="logo">Market</a>
+                                    </div>
+                                    <div class="header-center">
+                                                <a href="#" class="header-center-links">Home</a>
+                                                <div class="dropdown">
+                                                            <a href="#" class="header-center-links">Categories</a>
+                                                            <div class="dropdown-content">
+                                                                        <a href="#">Greengrocery</a>
+                                                                        <a href="#">Coffee varieties</a>
+                                                                        <a href="#">Clothes</a>
+                                                                        <a href="#">Alcoholic beverages</a>
+                                                                        <a href="#">Prepared foods</a>
+                                                                        <a href="#">Technology</a>
+                                                            </div>
+                                                </div>
+
+                                                <div class="dropdown">
+                                                            <a href="#" class="header-center-links">Campaign</a>
+                                                            <div class="dropdown-content">
+                                                                        <a href="#">Discounts</a>
+                                                                        <a href="#">Second is free</a>
+                                                                        <a href="#">Installments</a>
+                                                            </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                            <a href="#" class="header-center-links">Contact</a>
+                                                            <div class="dropdown-content">
+                                                                        <a href="#">+1 408 123 456</a>
+                                                                        <a href="#">supermarket@gmail.com</a>
+                                                                        <a href="#">@supermarket</a>
+                                                            </div>
+                                                </div>
+                                    </div>
+                                    <div class="header-right">
+                                                <i class="bi bi-search" id="search-icons"></i>
+
+                                    </div>
+                                    
+                        </div>
+            </header>
+            <div id="sidebar" class="sidebar">
+              <a href="#" class="header-center-links">Home</a>
+              <div class="dropdown">
+                  <a href="#" class="header-center-links">Categories</a>
+                  <div class="dropdown-content">
+                      <a href="#">Greengrocery</a>
+                      <a href="#">Coffee varieties</a>
+                      <a href="#">Clothes</a>
+                      <a href="#">Alcoholic beverages</a>
+                      <a href="#">Prepared foods</a>
+                      <a href="#">Technology</a>
+                  </div>
+              </div>
+          
+              <div class="dropdown">
+                  <a href="#" class="header-center-links">Campaign</a>
+                  <div class="dropdown-content">
+                      <a href="#">Discounts</a>
+                      <a href="#">Second is free</a>
+                      <a href="#">Installments</a>
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <a href="#" class="header-center-links">Contact</a>
+                  <div class="dropdown-content">
+                      <a href="#">+1 408 123 456</a>
+                      <a href="#">supermarket@gmail.com</a>
+                      <a href="#">@supermarket</a>
+                  </div>  
+              </div>
+          </div>
+            <div id="carouselExampleIndicators" class="carousel slide" style="z-index: -1;">
+                        <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="0" class="active bg-dark" aria-current="true"
+                                                aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="slider-box">
+                                    <h2 class="slider-box-caption">Up to 50% discounts
+                                    </h2>
+                                    <button class="slider-box-btn">More</button>
+                        </div>
+                        <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                                <img src="img&video/slider1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                        </div>
+                       
+            </div>
+            <div class="search-wrapper">
+                        <div class="search-box">
+                                    <div class="search-up">
+                                                <div class="search-input">
+                                                            <input type="search" placeholder="Search Here..">
+                                                </div>
+                                                <div class="search-icon">
+                                                            <i class="bi bi-search"></i>
+                                                </div>
+                                    </div>
+                                    <div class="search-center">
+                                                <div class="search-img">
+                                                            <img src="img&video/searchimg1.jpg" alt="">
+                                                </div>
+                                                <div class="search-img">
+                                                            <img src="img&video/searchimg2.jpg" alt="">
+                                                </div>
+                                    </div>
+                                    <div class="search-down">
+                                                <div class="search-info">
+                                                            <p class="search-text">We wish you pleasant shopping</p>
+                                                            <small>X MARKET</small>
+                                                </div>
+                                    </div>
+                        </div>
+            </div>
+            <section class="categories">
+                        <div class="categories-wrapper">
+                                    <div class="categories-firstbox">
+                                                <img src="img&video/categories1.jpg" alt="" class="categories-img">
+                                                <div class="box-caption">
+                                                <h3>Lorem, ipsum dolor.</h3>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quod tenetur est in at?</p>
+                                                </div>
+                                    </div>
+                                    <div class="categories-secondbox">
+                                                <img src="img&video/categories2.jpg" alt="" class="categories-img">
+                                                <div class="box-caption">
+                                                            <h3>Lorem, ipsum dolor.</h3>
+                                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quod tenetur est in at?</p>
+                                                </div>
+                                    </div>
+                        </div>
+                        <div class="categories-wrapper2">
+                                    <div class="categories-thirdbox">
+                                                <img src="img&video/categories3.jpg" alt="" class="categories-img">
+                                                <div class="box-caption">
+                                                <h3>Lorem, ipsum dolor.</h3>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quod tenetur est in at?</p>
+                                                </div>
+                                    </div>
+                                    <div class="categories-fourthbox">
+                                                <img src="img&video/categories4.jpg" alt="" class="categories-img">
+                                                <div class="box-caption">
+                                                            <h3>Lorem, ipsum dolor.</h3>
+                                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quod tenetur est in at?</p>
+                                                </div>
+                                    </div>
+                        </div>
+            </section>
+
+            <section class="contact">
+                        <div class="contact-wrapper">
+                                    <div class="contact-form">
+                                                <div class="login-box">
+                                                            <form action="">
+                                                                        <h2>Contact</h2>
+                                                                        <div class="input-box">
+                                                                                    <span class="icon"><i class="bi bi-person-circle"></i></span>
+                                                                                    <input type="text" required>
+                                                                                    <label>Name..</label>
+                                                                        </div>
+                                                                        <div class="input-box">
+                                                                                    <span class="icon"><i class="bi bi-telephone-minus-fill"></i></span>
+                                                                                    <input type="tel" required>
+                                                                                    <label>Phone Number..</label>
+                                                                        </div>
+                                                                        <div class="input-box">
+                                                                                    <span class="icon"><i class="bi bi-chat-left-dots-fill"></i></span>
+                                                                                    <input type="text" required>
+                                                                                    <label>Your Message</label>
+                                                                        </div>
+                                                                       
+                                                                        <div class="remember-forgot">
+                                                                                    <label><input type="checkbox" >Remember Me</label>
+                                                                                   
+                                                                        </div>
+                                                                        <button type="submit">Send</button>
+                                                                       
+                                                            </form>
+                                                    </div>
+                                    </div>
+                                    <div class="contact-location">
+                                                <div class="location-google">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.501306987059!2d-115.10094009999999!3d36.1786882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c349ece78849%3A0x8155435f9fb20bd8!2sGary%20Reese%20Freedom%20Park!5e0!3m2!1str!2str!4v1720439642822!5m2!1str!2str" width="800" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                    </div>
+                        </div>
+            </section>
+            <section class="footer">
+                        <footer>
+                                    <div class="subscribe-row">
+                                                <div class="container">
+                                                            <div class="footer-row-wrapper">
+                                                                        <div class="footer-subscribe-wrapper">
+                                                                                    <div class="footer-subscribe">
+                                                                                                <div class="footer-subscribe-top">
+                                                                                                            <h3
+                                                                                                                        class="subscribe-title">
+                                                                                                                        X MARKET COMPANY
+                                                                                                            </h3>
+                                                                                                            <p
+                                                                                                                        class="subscribe-desc">
+                                                                                                                        Lorem ipsum dolor sit amet consectetur adipisicing. <br>
+                                                                                                                        Created by <a href="https://www.instagram.com/iosmanapple/" target="_blank">Osman Ali Elma.</a> All rights reserved - 2024.
+                                                                                                            </p>
+                                                                                                </div>
+                                                                                              
+                                                                                    </div>
+                                                                        </div>
+                                                                        <div class="footer-contact-wrapper">
+                                                                                    <div class="footer-contact-top">
+                                                                                                <h3 class="contact-title">
+                                                                                                           Contact <br>
+                                                                                                           +1 408 123 456
+                                                                                                </h3>
+                                                                                                <p class="contact-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam!
+                                                                                                           </p>
+                                                                                    </div>
+                                                                                    <div class="footer-contact-bottom">
+                                                                                                <div class="download-app">
+                                                                                                            <a href="#" target="_blank">
+                                                                                                                        <img src="img&video/instagram.png" style="width: 75px; border-radius: 50%;"
+                                                                                                                                    alt="">
+                                                                                                            </a>
+                                                                                                            <a href="#" target="_blank">
+                                                                                                                        <img src="img&video/whatsapp.png" style="width: 75px; border-radius: 50%;"
+                                                                                                                                    alt="">
+                                                                                                            </a>
+                                                                                                </div>
+                                                                                                <p class="privacy-text">
+                                                                                                            <strong>Lorem, ipsum dolor.
+                                                                                                                        </strong>
+                                                                                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tempore.
+                                                                                                </p>
+                                                                                    </div>
+                                                                        </div>
+                                                            </div>
+                                                </div>
+                                    </div>
+                        </footer>
+            </section>
+
+            <script src="js/app.js">
+                        
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                        crossorigin="anonymous"></script>
+</body>
+
+</html>

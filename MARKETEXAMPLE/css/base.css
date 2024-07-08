@@ -1,0 +1,20 @@
+/*!global css connection */
+@import url(main.css);
+
+/*!header css connection */
+@import url(layout/header.css);
+
+/*! footer css connection */
+@import url(layout/footer.css);
+
+/*! slider css connection */
+@import url(components/slider.css);
+
+/*! search css connection */
+@import url(components/search.css);
+
+/*! categories css connection */
+@import url(pages/categories.css);
+
+/*! contact css connection */
+@import url(pages/contact.css);

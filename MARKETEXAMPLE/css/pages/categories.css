@@ -1,0 +1,100 @@
+.categories {
+            background: rgb(34, 193, 195);
+            background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+            border-top: 2px solid black;
+}
+
+.categories-wrapper {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-gap: 15px;
+
+}
+
+.categories-wrapper2 {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 15px;
+
+}
+
+.categories-wrapper .categories-img {
+            width: 250px;
+            height: 312.5px;
+            border-radius: 15px;
+}
+
+.categories-wrapper2 .categories-img {
+            width: 250px;
+            height: 312.5px;
+            border-radius: 15px;
+}
+
+.categories-wrapper .categories-firstbox,
+.categories-secondbox {
+            display: flex;
+            align-items: center;
+}
+
+.categories-wrapper2 .categories-firstbox,
+.categories-secondbox {
+            display: flex;
+            align-items: center;
+}
+
+.categories-wrapper .box-caption {
+            margin-top: -120px;
+            margin-left: 15px;
+
+
+}
+
+.categories-wrapper2 .box-caption {
+            margin-top: -120px;
+            margin-left: 15px;
+
+}
+
+.categories-wrapper .categories-firstbox,
+.categories-wrapper .categories-secondbox,
+.categories-wrapper2 .categories-thirdbox,
+.categories-wrapper2 .categories-fourthbox {
+            display: flex;
+            align-items: center;
+            border: 2px solid rgba(254, 176, 176, 0.666);
+            padding: 7px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+}
+
+.categories-wrapper2 {
+            margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+
+            .categories-wrapper,
+            .categories-wrapper2 {
+                        grid-template-columns: 1fr;
+            }
+
+            .categories-wrapper .categories-firstbox,
+            .categories-wrapper .categories-secondbox,
+            .categories-wrapper2 .categories-thirdbox,
+            .categories-wrapper2 .categories-fourthbox {
+                        flex-direction: column;
+                        width: 100%;
+            }
+
+            .categories-wrapper .categories-img,
+            .categories-wrapper2 .categories-img {
+                        width: 100%;
+                        height: auto;
+            }
+
+            .categories-wrapper .box-caption,
+            .categories-wrapper2 .box-caption {
+                        margin-top: 0;
+                        margin-left: 0;
+            }
+}
